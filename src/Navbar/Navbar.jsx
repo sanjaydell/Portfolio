@@ -6,7 +6,8 @@ function Navbar() {
     <div className='navbar'>
       <div className='wrapper'>
         <div className='left'>
-          <a href='' className='logo'>Sanjay</a>
+          <h1 href='' className='logo'>Sanjay Anuchuri</h1>
+          {/* <a href='' className='logo'>Anuchuri</a> */}
         </div>
         <div className='right'>
           <a href='#introduction' className='options'>Introduction</a>

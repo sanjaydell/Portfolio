@@ -1,3 +1,35 @@
+@import '../global.scss';
+
 .contacts {
-  background-color: lightblue;
+  background-color: white;
+
+  .header {
+    margin-left: 50vw;
+    margin-top: 18vh;
+    color: $maincolor;
+  }
+
+  .images {
+    margin-left: 35vw;
+    margin-top: 20vh;
+    display: flex;
+
+    a {
+      padding-left: 100px;
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .gmail-hover {
+        display: none;
+      }
+      
+      .gmail:hover + .gmail-hover {
+        display: inline-flex;
+        color: red;
+      }
+    }
+  }
 }

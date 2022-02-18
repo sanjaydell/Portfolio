@@ -1,3 +1,18 @@
+@import '../global.scss';
+
 .experience {
   background-color: lightcoral;
+
+  .header {
+    margin-left: 50vw;
+    margin-top: 18vh;
+    color: $maincolor;
+  }
+
+  .details {
+    margin-left: 50vw;
+    margin-top: 10vh;
+    width: 550px;
+    height: 300px;
+  }
 }

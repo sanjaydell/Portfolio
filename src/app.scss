@@ -3,15 +3,15 @@
 
   .profile-pic {
     z-index: 2;
-    top: 300px;
-    left: 250px;
+    top: 45vh;
+    left: 10vw;
     position: fixed;
   }
 
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: grey;
+    background-color: white;
     position: relative;
     top: 70px;
     scroll-behavior: smooth;

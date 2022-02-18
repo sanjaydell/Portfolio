@@ -1,3 +1,36 @@
+@import '../global.scss';
+
 .portfolio {
-  background-color: lightcyan;
+  background-color: white;
+
+  .header {
+    margin-left: 50vw;
+    margin-top: 18vh;
+    color: $maincolor;
+  }
+
+  .images {
+    margin-left: 32vw;
+    margin-top: 12vh;
+    display: grid;
+    grid-template-columns: repeat(7, 18vh);
+    grid-template-rows: repeat(2, 9vw);
+    grid-gap: 15px;
+
+    .tech-block {
+      text-align: center;
+      overflow: hidden;
+
+      .logos {
+        width: 4vw;
+        height: 10vh;
+      }
+
+      h4 {
+        color: $maincolor;
+      }
+
+    }
+  }
+  
 }

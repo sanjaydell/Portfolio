@@ -1,5 +1,24 @@
+@import '../global.scss';
+
 .introduction {
-  background-image: url('https://us.123rf.com/450wm/peshkov/peshkov1706/peshkov170600422/79997931-shelves-with-colorful-books-on-concrete-background-knowledge-concept-copy-space-3d-rendering.jpg?ver=6');
+  // background-image: url('https://cdn.wallpapersafari.com/62/76/Pb0kFJ.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: $maincolor;
+
+  .details {
+    margin-top: 24vh;
+    margin-left: 35vw;
+
+    h1 {
+      font-size: 80px;
+      font-weight: 500;
+      color: #922fbd;
+    }
+
+    p {
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
 }

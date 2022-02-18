@@ -12,13 +12,13 @@ function App() {
     <div className='app'>
       <Navbar />
       <div className='profile-pic'>
-        <img src='sanjay.jpg' className='profile-pic' alt='Sanjay' style={{ float: 'right', width: '200px', height:' 200px'}}/>
+        <img src='sanjay.jpg' className='profile-pic' alt='Sanjay' style={{ float: 'right', width: '20vw', height: '40vh'}}/>
       </div>
       <div className='sections'>
         <Introduction />
-        <CoverPage />
-        <Portfolio />
         <Experience />
+        <Portfolio />
+        <CoverPage />
         <Contacts />
       </div>
     </div>
