@@ -22,6 +22,7 @@ function Portfolio() {
         <TechLogos title='Cypress' source='Images/cypress.jpg' />
         <TechLogos title='Ruby' source='Images/ruby.jpg' />
         <TechLogos title='Rails' source='Images/rails.png' />
+        <TechLogos title='Node.js' source='Images/Nodejs.jpg' />
       </div>
     </div>
   )

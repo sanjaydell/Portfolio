@@ -11,10 +11,10 @@ function Navbar() {
         </div>
         <div className='right'>
           <a href='#introduction' className='options'>Introduction</a>
-          <a href='#cover-page' className='options'>Cover Page</a>
           <a href='#experience' className='options'>Experience</a>
-          <a href='#portfolio' className='options'>Portfolio</a>
-          <a href='#contacts' className='options'>Contacts</a>
+          <a href='#portfolio' className='options'>Technologies</a>
+          <a href='#cover-page' className='options'>Websites</a>
+          <a href='#contacts' className='options'>Contact</a>
         </div>
       </div>
     </div>

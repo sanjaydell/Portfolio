@@ -9,14 +9,16 @@ function Contacts() {
       </div>
       <div className='images'>
         <a href='https://mail.google.com/mail/?view=cm&fs=1&to=sanjay.anuchuri@gmail.com'>
-          <img className='gmail' src='Contacts/gmail.png' alt=''  />
-          <div className='gmail-hover'>I am shown when someone hovers over the div above.</div>
+          <img src='Contacts/gmail.png' alt=''  />
+          <button>Mail Me</button>
         </a>
         <a href='https://www.linkedin.com/in/sanjay-kumar-anuchuri-61b750205'>
           <img src='Contacts/linkedin.png' alt='' />
+          <button>Linked In</button>
         </a>
         <a href='https://github.com/sanjaydell' >
           <img src='Images/github.png' alt='' />
+          <button>Git Hub</button>
         </a>
       </div>
     </div>
