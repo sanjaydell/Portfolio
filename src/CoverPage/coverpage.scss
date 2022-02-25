@@ -4,7 +4,8 @@
   background-color: white;
 
   .header {
-    margin-left: 56vw;
+    text-align:  center;
+    margin-right: 30vw;
     margin-top: 10vh;
     color: $maincolor;
   }
@@ -15,10 +16,9 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
-    margin-left: 35vw;
-    margin-right: 10vw;
+    margin-right: 30vw;
     margin-top: 5vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     .left {
       padding-top: 20px;
@@ -43,7 +43,7 @@
         object-fit: contain;
         width: 280px;
         height: 280px;
-        -webkit-box-shadow: 0 0 10px 8px #888888;
+        box-shadow: 0 0 10px 8px #888888;
       }
 
       .button {
@@ -72,6 +72,12 @@
     }
     .left:hover {
       opacity: 1;
+    }
+  }
+  @media only screen and (max-width: 1080px) {
+    .images {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

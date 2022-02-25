@@ -4,16 +4,18 @@
   background-color: white;
 
   .header {
-    margin-left: 50vw;
-    margin-top: 18vh;
+    text-align:  center;
+    margin-right: 30vw;
+    margin-top: 15vh;
     color: $maincolor;
   }
 
   .images {
-    margin-left: 32vw;
+    justify-content: center;
     margin-top: 12vh;
+    margin-right: 30vw;
     display: grid;
-    grid-template-columns: repeat(7, 18vh);
+    grid-template-columns: repeat(7, minmax(auto, 7rem));
     grid-template-rows: repeat(2, 9vw);
     grid-gap: 15px;
 
@@ -30,6 +32,16 @@
         color: $maincolor;
       }
 
+    }
+  }
+  @media only screen and (min-width: 500px) and (max-width: 975px) {
+    .images {
+      grid-template-columns: repeat(3, minmax(auto, 7rem));
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .images {
+      grid-template-columns: repeat(1, minmax(auto, 7rem));
     }
   }
   

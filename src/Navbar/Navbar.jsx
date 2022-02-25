@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.scss'
+import NavContents from './NavContents'
 
 function Navbar() {
   return (
@@ -10,12 +11,16 @@ function Navbar() {
           {/* <a href='' className='logo'>Anuchuri</a> */}
         </div>
         <div className='right'>
-          <a href='#introduction' className='options'>Introduction</a>
-          <a href='#experience' className='options'>Experience</a>
-          <a href='#portfolio' className='options'>Technologies</a>
-          <a href='#cover-page' className='options'>Websites</a>
-          <a href='#contacts' className='options'>Contact</a>
+          <NavContents />
         </div>
+        <div class='dropdown'>
+          <button class='dropbtn'>Menu 
+            <i class='fa fa-caret-down'></i>
+          </button>
+          <div class='dropdown-content'>
+            <NavContents />
+          </div>
+        </div> 
       </div>
     </div>
   )

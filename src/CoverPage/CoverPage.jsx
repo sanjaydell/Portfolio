@@ -12,20 +12,17 @@ function CoverPage() {
           <img src='Quick-note.png' alt ='QuickNotes' />
           <div className='button'>
             <div className='text'>
-              <a href='https://quick-notes-reactjs.netlify.app/'>
+              <a href='https://quick-notes-reactjs.netlify.app/' target='_blank'>
                 Go to website
               </a>
             </div>
-            {/* <a href='https://quick-notes-reactjs.netlify.app/'>
-              Go to website
-            </a> */}
           </div>
         </div>
         <div className='left'>
           <img src='Facebook.png' alt='fb' />
           <div className='button'>
             <div className='text'>
-                <a href='https://sanjay-book.herokuapp.com/'>
+                <a href='https://sanjay-book.herokuapp.com/' target='_blank'>
                   Go to website
                 </a>
               </div>

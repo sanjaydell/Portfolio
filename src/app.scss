@@ -2,18 +2,25 @@
   height: 100vh;
 
   .profile-pic {
+    width: 30%;
     z-index: 2;
-    top: 45vh;
-    left: 10vw;
+    margin-top: 20vh;
+    margin-left: 4vw;
     position: fixed;
   }
 
+  @media only screen and (max-width: 500px) {
+    .profile-pic {
+      position: unset;
+    }
+  }
+
   .sections {
-    width: 100%;
     height: calc(100vh - 70px);
     background-color: white;
     position: relative;
     top: 70px;
+    margin-left: 30vw;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 
@@ -25,6 +32,11 @@
       width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align: start;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .sections {
+      margin-left: 0;
     }
   }
 }

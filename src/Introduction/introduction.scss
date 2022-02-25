@@ -1,14 +1,15 @@
 @import '../global.scss';
 
 .introduction {
-  // background-image: url('https://cdn.wallpapersafari.com/62/76/Pb0kFJ.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   color: $maincolor;
 
   .details {
-    margin-top: 24vh;
-    margin-left: 35vw;
+    width: fit-content;
+    text-align: left;
+    margin-top: 22vh;
+    margin-bottom: 20vh;
+    margin-right: 20vw;
+    padding-left: 50px;
 
     h1 {
       font-size: 80px;

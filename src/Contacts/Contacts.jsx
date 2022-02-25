@@ -8,15 +8,15 @@ function Contacts() {
         <h1>My Contact Links</h1>
       </div>
       <div className='images'>
-        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=sanjay.anuchuri@gmail.com'>
+        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=sanjay.anuchuri@gmail.com' target='_blank'>
           <img src='Contacts/gmail.png' alt=''  />
           <button>Mail Me</button>
         </a>
-        <a href='https://www.linkedin.com/in/sanjay-kumar-anuchuri-61b750205'>
+        <a href='https://www.linkedin.com/in/sanjay-kumar-anuchuri-61b750205' target='_blank'>
           <img src='Contacts/linkedin.png' alt='' />
           <button>Linked In</button>
         </a>
-        <a href='https://github.com/sanjaydell' >
+        <a href='https://github.com/sanjaydell' target='_blank' >
           <img src='Images/github.png' alt='' />
           <button>Git Hub</button>
         </a>
